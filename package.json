@@ -1,7 +1,7 @@
 {
-  "name": "%NAME%",
+  "name": "react-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "react-template",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --hot --mode development",
@@ -38,6 +38,7 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "@packtracker/webpack-plugin": "^2.3.0",
     "prop-types": "^15.6.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
