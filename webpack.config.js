@@ -29,7 +29,7 @@ module.exports = {
   plugins: [
     htmlPlugin,
     new PacktrackerPlugin({
-      project_token: "PT_PROJECT_TOKEN",
+      project_token: "jsr",
       branch: "master",
       upload: true,
       fail_build: true,
